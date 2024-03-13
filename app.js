@@ -12,7 +12,7 @@ app.use('/static', express.static('public'))
 
 // 루트 경로 ('/')에 대한 GET 요청을 처리합니다.
 app.get('/', (req, res) => {
-  res.send('Hello, Express.js!');
+  res.send('Hello, Express.js!!!');
 });
 
 // localhost뒤에 /test작성하여 테스트로 실행시
